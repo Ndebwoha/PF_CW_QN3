@@ -33,9 +33,9 @@ int main() {
     int result = reduce(numerator, denominator);
 
     if (result == 1) {
-        std::cout << "The reduced fraction is: " << numerator << "/" << denominator;
+        cout << "The reduced fraction is: " << numerator << "/" << denominator;
     } else {
-        std::cout << "Unable to reduce the fraction. Please make sure both numbers are positive.";
+        cout << "Unable to reduce the fraction. Please make sure both numbers are positive.";
     }
 
     return 0;
